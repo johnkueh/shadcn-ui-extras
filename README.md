@@ -1,6 +1,7 @@
 # shadcn-ui-extras
 - Missing components from [shadcn-ui](https://ui.shadcn.com/) that you can have for free.
 - Steal, modify, copy - do whatever you want with them.
+- Live demo [https://shadcn-ui-extras.vercel.app/](https://shadcn-ui-extras.vercel.app/)
 
 ## Buttons 
 
