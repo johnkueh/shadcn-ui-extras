@@ -22,7 +22,7 @@ export default function Home() {
             </LoaderButton>
           </div>
           <CodeBlock
-            permalink="https://github.com/xxx"
+            permalink="https://github.com/johnkueh/shadcn-ui-extras/blob/6e06a009d90d1ac3f2739d87945627a5c0f02c91/app/page.tsx#L17-L22"
             code={`<LoaderButton isLoading={false}>Submit</LoaderButton>
 <LoaderButton isLoading={true}>Submit</LoaderButton>
 <LoaderButton icon={Mail}>Submit</LoaderButton>
@@ -45,7 +45,7 @@ export default function Home() {
             <DemoDatePicker />
           </div>
           <CodeBlock
-            permalink="https://github.com/xxxx"
+            permalink="https://github.com/johnkueh/shadcn-ui-extras/blob/6e06a009d90d1ac3f2739d87945627a5c0f02c91/app/DemoDatePicker.tsx#L9"
             code={`<DateTimeSelect
   value={new Date("2022-11-17T09:00:00")}
   onChange={(datetime) => {
@@ -68,7 +68,7 @@ export default function Home() {
             <DemoWeekdayPicker />
           </div>
           <CodeBlock
-            permalink="https://github.com/xxxx"
+            permalink="https://github.com/johnkueh/shadcn-ui-extras/blob/6e06a009d90d1ac3f2739d87945627a5c0f02c91/app/DemoWeekdayPicker.tsx#L9"
             code={`<WeekdayPicker values={[1, 2]} onChange={(values) => console.log(values)} />`}
           />
         </div>
@@ -96,7 +96,7 @@ export default function Home() {
             <DemoRichTextEditor />
           </div>
           <CodeBlock
-            permalink="https://github.com/xxxx"
+            permalink="https://github.com/johnkueh/shadcn-ui-extras/blob/6e06a009d90d1ac3f2739d87945627a5c0f02c91/app/DemoRichTextEditor.tsx#L6"
             code={`<RichTextEditor defaultValue={""} onChange={(value) => console.log(value)} />`}
           />
         </div>
@@ -106,7 +106,7 @@ export default function Home() {
             <DemoStepper />
           </div>
           <CodeBlock
-            permalink="https://github.com/xxxx"
+            permalink="https://github.com/johnkueh/shadcn-ui-extras/blob/6e06a009d90d1ac3f2739d87945627a5c0f02c91/app/DemoStepper.tsx#L12-L25"
             code={`<Stepper
   active={currentStep}
   onStepClick={(step) => setCurrentStep(step)}
