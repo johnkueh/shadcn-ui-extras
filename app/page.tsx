@@ -1,8 +1,8 @@
-import { RichTextEditor } from "@/components/ui-extras/lexical-text-editor/RichTextEditor";
 import { LoaderButton } from "@/components/ui-extras/loader-button";
 import { Mail } from "lucide-react";
 import { CodeBlock } from "./CodeBlock";
 import { DemoDatePicker } from "./DemoDatePicker";
+import { DemoRichTextEditor } from "./DemoRichTextEditor";
 import { DemoStepper } from "./DemoStepper";
 import { DemoWeekdayPicker } from "./DemoWeekdayPicker";
 
@@ -41,7 +41,7 @@ export default function Home() {
 							target="_new"
 							className="text-sm text-blue-500 font-normal"
 						>
-							(dayjs dependency)
+							dayjs dependency
 						</a>
 					</h2>
 					<div className="flex items-center space-x-3">
@@ -65,7 +65,7 @@ export default function Home() {
 							target="_new"
 							className="text-sm text-blue-500 font-normal"
 						>
-							(dayjs dependency)
+							dayjs dependency
 						</a>
 					</h2>
 					<div className="flex items-center space-x-3">
@@ -79,16 +79,27 @@ export default function Home() {
 				<div className="space-y-3">
 					<h2 className="text-lg font-semibold">
 						Lexical rich-text editor&nbsp;
-						<a
-							href="https://lexical.dev/"
-							target="_new"
-							className="text-sm text-blue-500 font-normal"
-						>
-							(Lexical dependency)
-						</a>
+						<span className="text-sm font-normal">
+							<a
+								href="https://lexical.dev/"
+								target="_new"
+								className="text-sm text-blue-500 font-normal"
+							>
+								Lexical
+							</a>
+							,&nbsp;
+							<a
+								href="https://tailwindcss.com/docs/typography-plugin"
+								target="_new"
+								className="text-sm text-blue-500 font-normal"
+							>
+								@tailwind/typography
+							</a>
+							&nbsp;dependencies
+						</span>
 					</h2>
 					<div className="flex items-center space-x-3">
-						<RichTextEditor />
+						<DemoRichTextEditor />
 					</div>
 					<CodeBlock
 						permalink="https://github.com/xxxx"

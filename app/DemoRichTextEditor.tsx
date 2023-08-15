@@ -1,7 +1,9 @@
+import { RichTextEditor } from "@/components/ui-extras/lexical-text-editor/RichTextEditor";
+
 export function DemoRichTextEditor() {
 	return (
 		<div>
-			<h1>Rich Text Editor</h1>
+			<RichTextEditor />
 		</div>
 	);
 }
